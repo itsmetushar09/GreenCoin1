@@ -30,9 +30,9 @@ export function DashboardHeader() {
         <p className="text-sm text-muted-foreground">
           Welcome back, Admin 👋
         </p>
-        <p className="text-xs text-muted-foreground">
-          {formattedDate} · {formattedTime}
-        </p>
+       <p className="text-xs text-muted-foreground" suppressHydrationWarning>
+  {formattedDate} · {formattedTime}
+</p>
       </div>
       <div className="mt-2 flex gap-2 sm:mt-0">
         <Button variant="outline" size="sm">
